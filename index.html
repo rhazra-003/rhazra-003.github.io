@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/scrollreveal@4"></script>
+	<script>
+		ScrollReveal({ duration: 1000 })
+	</script>
     <title>Ridam Hazra</title>
 
     <!-- font awesome cdn link  -->
@@ -43,13 +47,23 @@
 <!-- home section starts  -->
 
 <section class="home" id="home">
-
-    <h3>Namaste from India! 🙏</h3>
-    <h1>I'M <span>Ridam Hazra</span></h1>
-    <p>A second year undergrad who wants to become a Data Scientist. I am interested in Machine Learning, Python and Front End Development and Cloud Computing. I love challenges and I am very eager to learn new things.
+    <h3 class="headline">
+        Namaste from India! 🙏
+    </h3>
+    <h1 class="tagline">
+        I'M <span>Ridam Hazra</span>
+    </h1>
+    <p class="punchline">
+        A second year undergrad who wants to become a Data Scientist. I am interested in Machine Learning, Pythone and Front End Development and Cloud Computing. I love challenges and I am very eager to learn new things.
     </p>
-    <a href="#about"><button class="btn">About Me<i class="fas fa-user"></i></button></a>
 
+	<script>
+		ScrollReveal().reveal('.headline')
+		ScrollReveal().reveal('.tagline', { delay: 500 })
+		ScrollReveal().reveal('.punchline', { delay: 2000 })
+	</script>    
+
+    <a href="#about"><button class="btn">About Me<i class="fas fa-user"></i></button></a>
 </section>
 
 <!-- home section ends -->
@@ -67,8 +81,7 @@
         <h3> <span> Age : </span> 21 </h3>
         <h3> <span> Stream : </span> B.Tech CSE (expected 2023) </h3>
         <h3> <span> Institute : </span> National Institute of Technology Durgapur </h3>
-        <h3> <span> Volunteer : </span> IEEE & IEEE Computer Society </h3>
-	<h3> <span> Motto : </span> Think Twice, Code Once! </h3>    
+        <h3> <span> Volenteer : </span> IEEE & IEEE Computer Society </h3>
         <h3> <span> Languages : </span> English Hindi Bengali </h3>
         <a href="https://drive.google.com/file/d/1E8SAxgM8nFfZnCiG8UlARZiCQIhjfNjH/view?usp=sharing" target="_blank"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
     </div>
@@ -155,7 +168,7 @@
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
-        <span>June, 2016</span>
+        <span>July, 2019</span>
         <h3>Secondary</h3>
         <p>KTPP High School, Kolaghat, West Bengal</p>
         <p>Score - 92.43% (AA)</p>
@@ -225,16 +238,18 @@
 <div class="row">
 
     <div class="content">
-	    
+
+
+
         <div class="info">
             <h3> <i class="fas fa-envelope"></i> rhazra0602@gmail.com </h3>
             <h3> <i class="fas fa-phone"></i>+91-9874490801</h3>
             <h3> <i class="fas fa-map-marker-alt"></i> Kolkata & Durgapur, India </h3>
-            <h3><a href="https://www.facebook.com/ridam.hazra/" target="_blank"><i class="fab fa-facebook-square"></i>@ridam.hazra </h3>
-            <h3><a href="https://www.instagram.com/algo._.ridam/" target="_blank"><i class="fab fa-instagram-square"></i>@algo._.ridam</h3>
-            <h3><a href="https://twitter.com/Algo_Ridam" target="_blank"><i class="fab fa-twitter-square"></i>@Algo_Ridam</h3>
-            <h3><a href="https://www.linkedin.com/in/algoridam003/" target="_blank"><i class="fab fa-linkedin"></i>@algoridam003</h3>
-            <h3><a href="https://github.com/rhazra-003" target="_blank"><i class="fab fa-github-square"></i>@rhazra-003</h3>    
+            <h3> <i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/ridam.hazra" target="_blank">@ridam.hazra </h3>
+            <h3> <a href="https://www.instagram.com/algo._.ridam/" target="_blank"><i class="fab fa-instagram-square"></i>@algo._.ridam</h3>
+            <h3> <a href="https://twitter.com/Algo_Ridam" target="_blank"><i class="fab fa-twitter-square"></i>@Algo_Ridam</h3>
+            <h3> <a href="https://www.linkedin.com/in/algoridam003/" target="_blank"><i class="fab fa-linkedin"></i>@algoridam003</h3>
+            <h3> <a href="https://github.com/rhazra-003" target="_blank"><i class="fab fa-github-square"></i>@rhazra-003</h3>    
         </div>
 
     </div>
@@ -265,13 +280,18 @@
 <a href="#home" class="top">
     <img src="images/scroll-top-img.png" alt="">
 </a>
-		    
+
+
 <!-- jquery cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- custom js file link  -->
 <script src="script.js"></script>
 
+<script>
+    ScrollReveal().reveal('.headline');
+</script>
+
+
 </body>
-		
 </html>
