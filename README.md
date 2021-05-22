@@ -1,2 +1,2 @@
-## rhazra-003.github.io
-### Perosnal Website
+## **Personal Website**
+### Made with HTML, CSS, Bootstrap and a liitle bit of JavaScript. Images taken from Freepik.
