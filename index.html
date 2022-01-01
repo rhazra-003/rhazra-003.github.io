@@ -1,315 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://unpkg.com/scrollreveal@4"></script>
-	<script>
-		ScrollReveal({ duration: 1000 })
-	</script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+      ScrollReveal({ duration: 1000 });
+    </script>
     <title>Ridam Hazra Portfolio</title>
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
 
-</head>
-<body>
-    
-<!-- header section starts  -->
-
-<header>
-
-    <div class="user">
-        <img src="images/pic.jpeg" alt="">
+    <header>
+      <div class="user">
+        <img src="images/pic.jpeg" alt="" />
         <h3 class="name">Ridam Hazra</h3>
         <p class="post">NLP | AI | Big Data | Cloud</p>
-    </div>
+      </div>
 
-    <nav class="navbar">
+      <nav class="navbar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Journey</a></li>
-            <li><a href="#portfolio">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Journey</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
 
-</header>
+    <!-- header section ends -->
 
-<!-- header section ends -->
+    <div id="menu" class="fas fa-bars"></div>
 
-<div id="menu" class="fas fa-bars"></div>
+    <!-- home section starts  -->
 
-<!-- home section starts  -->
+    <section class="home" id="home">
+      <h3 class="headline">Namaste from India! 🙏</h3>
+      <h1 class="tagline">I'M <span>Ridam Hazra</span></h1>
+      <p class="punchline">
+        A pre final year undergrad who wants to become a Software Developer. I
+        am interested in Python Development, Machine Learning Algorithms, Cloud
+        Computing and Problem solving. I love challenges and I am very eager to
+        learn new things.
+      </p>
 
-<section class="home" id="home">
-    <h3 class="headline">
-        Namaste from India! 🙏
-    </h3>
-    <h1 class="tagline">
-        I'M <span>Ridam Hazra</span>
-    </h1>
-    <p class="punchline">
-        A pre final year undergrad who wants to become a Software Developer. I am interested in Python Development, Machine Learning Algorithms, Cloud Computing and Problem solving. I love challenges and I am very eager to learn new things.
-    </p>
+      <script>
+        ScrollReveal().reveal(".headline");
+        ScrollReveal().reveal(".tagline", { delay: 500 });
+        ScrollReveal().reveal(".punchline", { delay: 2000 });
+      </script>
 
-	<script>
-		ScrollReveal().reveal('.headline')
-		ScrollReveal().reveal('.tagline', { delay: 500 })
-		ScrollReveal().reveal('.punchline', { delay: 2000 })
-	</script>    
+      <a href="#about"
+        ><button class="btn">About Me<i class="fas fa-user"></i></button
+      ></a>
+    </section>
 
-    <a href="#about"><button class="btn">About Me<i class="fas fa-user"></i></button></a>
-</section>
+    <!-- home section ends -->
 
-<!-- home section ends -->
+    <!-- about section starts  -->
 
-<!-- about section starts  -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> Me</h1>
 
-<section class="about" id="about">
+      <div class="row">
+        <div class="info">
+          <h3><span> Name : </span> Ridam Hazra</h3>
+          <h3><span> Age : </span> 21</h3>
+          <h3><span> Stream : </span> B.Tech CSE (expected 2023)</h3>
+          <h3>
+            <span> Institute : </span> National Institute of Technology Durgapur
+          </h3>
+          <h3><span> Volunteer : </span> IEEE & IEEE Computer Society</h3>
+          <h3><span> Member : </span> Google Developers Student Club</h3>
+          <h3><span> Motto : </span> Think Twice, Code Once!</h3>
+          <h3><span> Languages : </span> English Hindi Bengali</h3>
+          <a
+            href="https://drive.google.com/file/d/1bBk4DwHYCrTl644ZusBXVujfEHJVlPN7/view"
+            target="_blank"
+            ><button class="btn">
+              Download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
 
-<h1 class="heading"> <span>About</span> Me</h1>
-
-<div class="row">
-
-    <div class="info">
-        <h3> <span> Name : </span> Ridam Hazra </h3>
-        <h3> <span> Age : </span> 21 </h3>
-        <h3> <span> Stream : </span> B.Tech CSE (expected 2023) </h3>
-        <h3> <span> Institute : </span> National Institute of Technology Durgapur </h3>
-	<h3> <span> Volunteer : </span> IEEE & IEEE Computer Society </h3>
-        <h3> <span> Member : </span> Google Developers Student Club </h3>
-	<h3> <span> Motto : </span> Think Twice, Code Once! </h3>
-        <h3> <span> Languages : </span> English Hindi Bengali </h3>
-        <a href="https://drive.google.com/file/d/1bBk4DwHYCrTl644ZusBXVujfEHJVlPN7/view" target="_blank"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
-    </div>
-
-    <div class="counter">
-
-        <div class="box">
+        <div class="counter">
+          <div class="box">
             <span>Reader</span>
             <h3>Detective History Technology</h3>
-        </div>
+          </div>
 
-        <div class="box">
+          <div class="box">
             <span>Quizzer</span>
             <h3>QuizInc NIT Durgapur</h3>
-        </div>
+          </div>
 
-        <div class="box">
+          <div class="box">
             <span>Photographer</span>
-            <h3>Nature Wildlife </h3>
-        </div>
+            <h3>Nature Wildlife</h3>
+          </div>
 
-        <div class="box">
+          <div class="box">
             <span>Sports Fan</span>
             <h3>FC Barcelona RedBullF1</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">The Path Taken <span>So Far</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-briefcase"></i>
+          <span>November, 2021</span>
+          <h3>Research Intern</h3>
+          <p>Indian Institute of Technology Roorkee</p>
+          <p>Bot-IoT Traffic Detection Method using Machine Learning</p>
         </div>
 
-
-    </div>
-
-</div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- education section starts  -->
-
-<section class="education" id="education">
-
-<h1 class="heading"> The Path Taken <span>So Far</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <i class="fas fa-briefcase"></i>
-        <span>November, 2021</span>
-        <h3>Research Intern</h3>
-        <p>Indian Institute of Technology Roorkee</p>
-	<p>Bot-IoT Traffic Detection Method using Machine Learning</p>
-    	</div>
-	
-    <div class="box">
-        <i class="fas fa-briefcase"></i>
-        <span>September-November, 2021</span>
-        <h3>Open Source Contributor</h3>
-        <p>GirlScript Winter of Contrubuting (GWoC)</p>
-        <p>Data Science | Python | Satistics</p>
-    	</div>
-	
-    <div class="box">
-        <i class="fas fa-briefcase"></i>
-        <span>June-July, 2021</span>
-        <h3>Business Analytics Intern</h3>
-        <p>The Sparks Foundation, Singapore</p>
-	<p>Graduate Rotational Internship Progarm (GRIP)</p>
-    	</div>
-	
-    <div class="box">
-        <i class="fas fa-briefcase"></i>
-        <span>May-August, 2021</span>
-        <h3>Remote Research Intern</h3>
-        <p>Artificial Intelligence Institute, University of South Carolina, USA</p>
-        <p>ChatBot Development: Randomised Control Trial</p>
-        <p>In collaboration with Indian Institute of Technology Roorkee</p>
-    	</div>
-
-    <div class="box">
-        <i class="fas fa-briefcase"></i>
-        <span>November, 2019</span>
-        <h3>Quizzer & Organiser</h3>
-        <p>QuizInc NIT Durgapur</p>
-        <p>Junior level fest coordinator of Quizzitch Cup 2020 & 2021</p>
+        <div class="box">
+          <i class="fas fa-briefcase"></i>
+          <span>September-November, 2021</span>
+          <h3>Open Source Contributor</h3>
+          <p>GirlScript Winter of Contrubuting (GWoC)</p>
+          <p>Data Science | Python | Satistics</p>
         </div>
 
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>July, 2019</span>
-        <h3>B. Tech (4 Years) Computer Science and Engineering</h3>
-        <p>National Institute of Technology Durgapur, West Bengal</p>
-        <p>CGPA - 9.07/10</p>
+        <div class="box">
+          <i class="fas fa-briefcase"></i>
+          <span>June-July, 2021</span>
+          <h3>Business Analytics Intern</h3>
+          <p>The Sparks Foundation, Singapore</p>
+          <p>Graduate Rotational Internship Progarm (GRIP)</p>
         </div>
 
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>June, 2018</span>
-        <h3>Higher Secondary</h3>
-        <p>Jadavpur Vidyapith, Kolkata, West Bengal</p>
-        <p>Score - 84% (A+)</p>
-    	</div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>June, 2016</span>
-        <h3>Secondary</h3>
-        <p>KTPP High School, Kolaghat, West Bengal</p>
-        <p>Score - 92.43% (AA)</p>
-        </div>            
-
-</div>
-
-</section>
-
-<!-- education section ends -->
-
-<!-- portfolio section starts  -->
-
-<section class="portfolio" id="portfolio">
-
-<h1 class="heading"> My <span>Projects</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <a href="https://github.com/rhazra-003/ChatBot" target="_blank">
-            <img src="images/chatbot.jpg" alt="">
-        </a>    
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/rhazra-003/Image_Classifier" target="_blank">
-            <img src="images/flowers.jpg" alt="">
-        </a>    
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/rhazra-003/2048_Game" target="_blank">
-            <img src="images/2048.jpg" alt="">
-        </a>    
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/rhazra-003/Barber_Shop" target="_blank">
-            <img src="images/barber.jpg" alt="">
-        </a>    
-    </div>
-    
-    <div class="box">
-        <a href="https://github.com/rhazra-003/Restaurant_Management_System" target="_blank">
-            <img src="images/rms.jpg" alt="">
-        </a>    
-    </div>
-    
-    <div class="box">
-        <a href="https://github.com/rhazra-003/Solar_System_Simulation" target="_blank">
-            <img src="images/solar.jpg" alt="">
-        </a>    
-    </div>    
-</div>
-
-</section>
-
-<!-- portfolio section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-<h1 class="heading"> <span>Contact</span> Me </h1>
-
-<div class="row">
-
-    <div class="content">
-
-
-
-        <div class="info">
-            <h3> <i class="fas fa-envelope"></i> rhazra0602@gmail.com </h3>
-            <h3> <i class="fas fa-phone"></i>+91-9874490801</h3>
-            <h3> <i class="fas fa-map-marker-alt"></i> Kolkata & Durgapur, India </h3>
-            <h3> <i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/ridam.hazra" target="_blank">@ridam.hazra </h3>
-            <h3> <a href="https://www.instagram.com/algo._.ridam/" target="_blank"><i class="fab fa-instagram-square"></i>@algo._.ridam</h3>
-            <h3> <a href="https://twitter.com/Algo_Ridam" target="_blank"><i class="fab fa-twitter-square"></i>@Algo_Ridam</h3>
-            <h3> <a href="https://www.linkedin.com/in/algoridam003/" target="_blank"><i class="fab fa-linkedin"></i>@algoridam003</h3>
-            <h3> <a href="https://github.com/rhazra-003" target="_blank"><i class="fab fa-github-square"></i>@rhazra-003</h3>    
+        <div class="box">
+          <i class="fas fa-briefcase"></i>
+          <span>May-August, 2021</span>
+          <h3>Remote Research Intern</h3>
+          <p>
+            Artificial Intelligence Institute, University of South Carolina, USA
+          </p>
+          <p>ChatBot Development: Randomised Control Trial</p>
+          <p>In collaboration with Indian Institute of Technology Roorkee</p>
         </div>
 
-    </div>
+        <div class="box">
+          <i class="fas fa-briefcase"></i>
+          <span>November, 2019</span>
+          <h3>Quizzer & Organiser</h3>
+          <p>QuizInc NIT Durgapur</p>
+          <p>Junior level fest coordinator of Quizzitch Cup 2020 & 2021</p>
+        </div>
 
-    <form action="">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>July, 2019</span>
+          <h3>B. Tech (4 Years) Computer Science and Engineering</h3>
+          <p>National Institute of Technology Durgapur, West Bengal</p>
+          <p>CGPA - 9.07/10</p>
+        </div>
 
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>June, 2018</span>
+          <h3>Higher Secondary</h3>
+          <p>Jadavpur Vidyapith, Kolkata, West Bengal</p>
+          <p>Score - 84% (A+)</p>
+        </div>
 
-    </form>
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>June, 2016</span>
+          <h3>Secondary</h3>
+          <p>KTPP High School, Kolaghat, West Bengal</p>
+          <p>Score - 92.43% (AA)</p>
+        </div>
+      </div>
+    </section>
 
-</div>
+    <!-- education section ends -->
 
-<div class="social-links">	
-	<p>© 2021 By Ridam Hazra</p>
-</div>
+    <!-- portfolio section starts  -->
 
-</section>
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">My <span>Projects</span></h1>
 
-<!-- contact section ends -->
+      <div class="box-container">
+        <div class="box">
+          <a href="https://github.com/rhazra-003/ChatBot" target="_blank">
+            <img src="images/chatbot.jpg" alt="" />
+          </a>
+        </div>
 
+        <div class="box">
+          <a
+            href="https://github.com/rhazra-003/Image_Classifier"
+            target="_blank"
+          >
+            <img src="images/flowers.jpg" alt="" />
+          </a>
+        </div>
 
-<!-- scroll top button  -->
+        <div class="box">
+          <a href="https://github.com/rhazra-003/2048_Game" target="_blank">
+            <img src="images/2048.jpg" alt="" />
+          </a>
+        </div>
 
-<a href="#home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
+        <div class="box">
+          <a href="https://github.com/rhazra-003/Barber_Shop" target="_blank">
+            <img src="images/barber.jpg" alt="" />
+          </a>
+        </div>
 
+        <div class="box">
+          <a
+            href="https://github.com/rhazra-003/Restaurant_Management_System"
+            target="_blank"
+          >
+            <img src="images/rms.jpg" alt="" />
+          </a>
+        </div>
 
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <div class="box">
+          <a
+            href="https://github.com/rhazra-003/Solar_System_Simulation"
+            target="_blank"
+          >
+            <img src="images/solar.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
 
-<!-- custom js file link  -->
-<script src="script.js"></script>
+    <!-- portfolio section ends -->
 
-<script>
-    ScrollReveal().reveal('.headline');
-</script>
+    <!-- contact section starts  -->
 
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Me</h1>
 
-</body>
+      <div class="row">
+        <div class="content">
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> rhazra0602@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i>+91-9874490801</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> Kolkata & Durgapur, India
+            </h3>
+            <h3>
+              <i class="fab fa-facebook-square"></i
+              ><a href="https://www.facebook.com/ridam.hazra" target="_blank"
+                >@ridam.hazra
+              </a>
+            </h3>
+            <h3>
+              <a href="https://www.instagram.com/algo._.ridam/" target="_blank"
+                ><i class="fab fa-instagram-square"></i>@algo._.ridam</a
+              >
+            </h3>
+            <h3>
+              <a href="https://twitter.com/Algo_Ridam" target="_blank"
+                ><i class="fab fa-twitter-square"></i>@Algo_Ridam</a
+              >
+            </h3>
+            <h3>
+              <a
+                href="https://www.linkedin.com/in/algoridam003/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i>@algoridam003</a
+              >
+            </h3>
+            <h3>
+              <a href="https://github.com/rhazra-003" target="_blank"
+                ><i class="fab fa-github-square"></i>@rhazra-003</a
+              >
+            </h3>
+          </div>
+        </div>
+
+        <form action="" id="myForm">
+          <input type="text" placeholder="name" name="name" class="box" />
+          <input type="text" placeholder="email" name="email" class="box" />
+          <input type="text" placeholder="project" name="project" class="box" />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn" onclick="myFunction()">
+            Send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="social-links">
+        <p>© 2021 By Ridam Hazra</p>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top">
+      <img src="images/scroll-top-img.png" alt="" />
+    </a>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+    <script>
+      ScrollReveal().reveal(".headline");
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_w2ziz2qbvfXU6HhpyqDIg");
+      })();
+    </script>
+    <!-- <script>
+      emailjs.sendForm("service_12vmygu", "template_094qd4h", "#myForm");
+    </script> -->
+    <script>
+      // listen to the form submission
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const serviceID = "service_12vmygu";
+          const templateID = "template_094qd4h";
+
+          // send the email here
+          emailjs
+            .sendForm(serviceID, templateID, this)
+            .then(
+              (response) => {
+                console.log("SUCCESS!", response.status, response.text);
+                alert("SUCCESS!");
+              },
+              (error) => {
+                console.log("FAILED...", error);
+                alert("FAILED...", error);
+              }
+            )
+            .then(function myFunction() {
+              document.getElementById("myForm").reset();
+            });
+        });
+    </script>
+    <script></script>
+  </body>
 </html>
